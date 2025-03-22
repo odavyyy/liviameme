@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index\.html\s
+RewriteRule ^index\.html$ https://fulanorx.shop/ [R=301,L]
+RewriteEngine On
+RewriteRule ^rsrs$ rsrs/rsrs.html [L]
+DirectoryIndex rsrs/rsrs.html
+
+
